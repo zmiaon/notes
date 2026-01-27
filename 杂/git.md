@@ -4,7 +4,7 @@
 
 **git add .**  //确认添加文件
 
-**git commit // -m + '提示信息' 不加-m则进入vim模式   ---提交备注
+**git commit // -<mark style="background: #FFB8EBA6;">m + '提示信息' </mark>不加-m则进入vim模式   ---提交备注
 
 
 
