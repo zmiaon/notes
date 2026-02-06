@@ -2,7 +2,7 @@
 1. 创建服务器：
 		1. **导入net模块**： `require('net')`
 		2. **创建服务器**：`net.createServer()`
-		3. **监听本机的端口**：`server.listen(端口号，()=>{})`
+		3. **监听本机的端口**：`se<mark style="background: #000000;">rver.l</mark>isten(端口号，()=>{})`
 		4. **on事件**
 			1) '<mark style="background: #FFB8EBA6;">connection</mark>'：**当有客户端连接当前服务器监听的端口，触发对应函数**
 				函数参数为连接对象clientSocket

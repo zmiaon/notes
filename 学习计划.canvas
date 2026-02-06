@@ -1,11 +1,11 @@
 {
 	"nodes":[
-		{"id":"68088fac941eeb3d","x":-580,"y":-200,"width":250,"height":60,"type":"text","text":"vue3 + typescript :24 "},
-		{"id":"8feb60db9328845d","x":-580,"y":-80,"width":250,"height":60,"type":"text","text":"typescript :18"},
-		{"id":"9489032538eeaff9","x":-260,"y":-140,"width":250,"height":60,"type":"text","text":"微信小程序 :20+43"},
-		{"id":"45c06ed105903006","x":40,"y":-140,"width":250,"height":60,"type":"text","text":"nodejs :24"},
-		{"id":"0438ca1ab8f134c5","x":380,"y":-140,"width":250,"height":60,"type":"text","text":"java"},
-		{"id":"7b5912f7348a98d9","x":-560,"y":-340,"width":250,"height":60,"type":"text","text":"每天学3小时"}
+		{"id":"68088fac941eeb3d","type":"text","text":"vue3 + typescript :24 ","x":-580,"y":-200,"width":250,"height":60},
+		{"id":"8feb60db9328845d","type":"text","text":"typescript :18","x":-580,"y":-80,"width":250,"height":60},
+		{"id":"9489032538eeaff9","type":"text","text":"微信小程序 :20+43","x":-260,"y":-140,"width":250,"height":60},
+		{"id":"45c06ed105903006","type":"text","text":"nodejs :24","x":40,"y":-140,"width":250,"height":60},
+		{"id":"0438ca1ab8f134c5","type":"text","text":"java","x":380,"y":-140,"width":250,"height":60},
+		{"id":"7b5912f7348a98d9","type":"text","text":"每天学3小时","x":-560,"y":-340,"width":250,"height":60}
 	],
 	"edges":[
 		{"id":"419bbfc6107bc0a6","fromNode":"68088fac941eeb3d","fromSide":"bottom","toNode":"8feb60db9328845d","toSide":"top"},

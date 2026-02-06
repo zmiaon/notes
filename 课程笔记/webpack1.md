@@ -16,11 +16,12 @@
 
 ## webpack.config.js  //自定义配置webpack (没有此文件则会使用默认配置)
 可以指定文件为配置文件  `npx webpack --config webpackconfig.js`
-module.exports = {
+```module.exports = {
     mode:  设置环境为开发环境development还是生产环境production;决定编译后的bundle.js文件是否被压缩
     entry：入口文件,
     devtool:source-map -- 它是一个映射关系，当页面报错时可以根据报错追踪到源代码中的哪一行出错，而不会只显示出打包后的代码。development环境默认打开    eval为值是打包速度最快的，但是如果项目比较复杂，提示信息会太简单。module第三方模块报错的时候也指向提示信息，cheap映射代码放在一个打包文件里
-    module:{        //如何处理项目中的不同类型的模块
+    ```
+    ```module:{        //如何处理项目中的不同类型的模块
         reules:[      匹配请求的规则数组（对木块引用loader或者修改解析器parser
             {
                 test:/\.jpg$/,
@@ -61,6 +62,8 @@ module.exports = {
         libraryTarget:'',   //值为'umd':commonJs ,ESModule引入方式都可以引入这个库;值为'this'，则library变量会挂载到this上
     }
 }
+```
+
 
 ### 热更新
 1.package.json页面script配置"webpack --watch"即可监听页面代码的变化此时只需要刷新就可以获取新页面，不用重新构建

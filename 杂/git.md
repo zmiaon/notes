@@ -13,3 +13,5 @@
 **git pull** //拉取代码
 
 vim编辑器：命令模式下输入字母i或者o或者a可以进入编辑模式；ESC可以退出编辑；输入v则进入可视化模式；输入:进入末行模式：:wq可退出vim，两下ESC可返回命令模式；
+
+其他详细配置信息：[]()https://comate.baidu.com/zh/page/twtdfxpc4v0
