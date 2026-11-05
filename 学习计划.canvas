@@ -5,7 +5,11 @@
 		{"id":"9489032538eeaff9","type":"text","text":"微信小程序 :20+43","x":-260,"y":-140,"width":250,"height":60},
 		{"id":"45c06ed105903006","type":"text","text":"nodejs :24","x":40,"y":-140,"width":250,"height":60},
 		{"id":"0438ca1ab8f134c5","type":"text","text":"java","x":380,"y":-140,"width":250,"height":60},
-		{"id":"7b5912f7348a98d9","type":"text","text":"每天学3小时","x":-560,"y":-340,"width":250,"height":60}
+		{"id":"7b5912f7348a98d9","type":"text","text":"每天学3小时","x":-560,"y":-340,"width":250,"height":60},
+		{"id":"482421a67753157e","x":-560,"y":220,"width":250,"height":60,"type":"text","text":"三步走"},
+		{"id":"6cf891a12083854b","x":-260,"y":220,"width":250,"height":60,"type":"text","text":"1. 前端编写结合AI辅助"},
+		{"id":"1340dd6965ab6172","x":40,"y":220,"width":250,"height":60,"type":"text","text":"2. 往前端全栈发展"},
+		{"id":"0665d4138fadbb09","x":360,"y":220,"width":250,"height":60,"type":"text","text":"3. 往AI全栈发展"}
 	],
 	"edges":[
 		{"id":"419bbfc6107bc0a6","fromNode":"68088fac941eeb3d","fromSide":"bottom","toNode":"8feb60db9328845d","toSide":"top"},
@@ -13,6 +17,9 @@
 		{"id":"28a9d2886a2b5f03","fromNode":"68088fac941eeb3d","fromSide":"right","toNode":"9489032538eeaff9","toSide":"left"},
 		{"id":"db35fbfdbd893964","fromNode":"8feb60db9328845d","fromSide":"right","toNode":"9489032538eeaff9","toSide":"left"},
 		{"id":"e963feeeb359947a","fromNode":"9489032538eeaff9","fromSide":"right","toNode":"45c06ed105903006","toSide":"left"},
-		{"id":"4e8766ee649de781","fromNode":"45c06ed105903006","fromSide":"right","toNode":"0438ca1ab8f134c5","toSide":"left"}
+		{"id":"4e8766ee649de781","fromNode":"45c06ed105903006","fromSide":"right","toNode":"0438ca1ab8f134c5","toSide":"left"},
+		{"id":"f024a185d257f95b","fromNode":"482421a67753157e","fromSide":"right","toNode":"6cf891a12083854b","toSide":"left"},
+		{"id":"64aa6739279ff139","fromNode":"6cf891a12083854b","fromSide":"right","toNode":"1340dd6965ab6172","toSide":"left"},
+		{"id":"844753f6cd5d7029","fromNode":"1340dd6965ab6172","fromSide":"right","toNode":"0665d4138fadbb09","toSide":"left"}
 	]
 }
